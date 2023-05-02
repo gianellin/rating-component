@@ -34,10 +34,11 @@ button{
     font-family: inherit;
 }
 
-.main-container, .thank-you {
+.main-container, .after {
     background-color: var(--Dark-Blue);
     padding: 1.5rem;
     border-radius: .625;
+    border-radius: 7%;
 
 }
 
@@ -54,6 +55,7 @@ button{
 .main-container p{
     color: var(--Light-Grey);
     margin-bottom: 1rem;
+    
 }
 
 .main-container ul {
@@ -87,7 +89,7 @@ button{
 .btn-submit {
     background-color: var(--Orange);
     width: 100%;
-    padding: .8rem 0 .6rem;
+    padding: .8rem 0 .8rem;
     border: none;
     border-radius: 30px;
     color: var(--White);
@@ -103,6 +105,25 @@ button{
 }
 p {
     line-height: 1.8;
+}
+
+.after{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.after img {
+    display: block;
+    margin: 0 auto 2rem; 
+}
+
+.after p.highlight{
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 30px;
+    color: var(--Orange)
 }
 
 .attribution { 
