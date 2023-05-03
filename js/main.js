@@ -1,9 +1,13 @@
+//boxes
 const mainBox = document.querySelector(".main-container")
 const thanksBox = document.querySelector(".after")
-
-
+//buttons
 const submitButton = document.getElementById("submit")
 const rateAgain = document.getElementById("again")
+const rates = document.querySelectorAll(".btn")
+
+//rating message
+const rating = document.getElementById("rating")
 
 
 //Clickevent
@@ -17,3 +21,10 @@ rateAgain.addEventListener("click", () => {
     mainBox.style.display = "block" // this makes the mainBox re- appear
 }
 )
+
+rates.forEach((rate) => {
+    rate.addEventListener("click", () =>{
+        console.log(rate.innerHTML)
+    })
+
+})
