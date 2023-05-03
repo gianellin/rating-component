@@ -12,3 +12,8 @@ submitButton.addEventListener("click", () => {
     mainBox.style.display = "none" // this makes the mainBox dissapear
 })
 
+rateAgain.addEventListener("click", () => {
+    thanksBox.classList.add("hidden") //add the class hidden when click on rate again button
+    mainBox.style.display = "block" // this makes the mainBox re- appear
+}
+)
