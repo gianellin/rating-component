@@ -123,12 +123,29 @@ p {
 .after p.highlight{
     background-color: hsl(213, 20%, 22%);
     border-radius: 30px;
-    color: var(--Orange)
+    color: var(--Orange);
+    padding: 0.2rem 0.5rem 0;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+.after h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+.after p {
+    color: var(--Light-Grey);
+    margin-bottom: 1.5rem;
+}
+
+.hidden {
+    display: none;
 }
 
 .attribution { 
     font-size: 11px;
     text-align: center; 
+    color: white;
+    margin-top: 1rem;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
