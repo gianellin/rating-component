@@ -24,7 +24,8 @@ rateAgain.addEventListener("click", () => {
 
 rates.forEach((rate) => {
     rate.addEventListener("click", () =>{
-        console.log(rate.innerHTML)
+        // console.log(rate.innerHTML)
+        rating.innerHTML = rate.innerHTML 
     })
 
 })
